@@ -1,0 +1,54 @@
+{
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "ยืนยันการชำระเงิน",
+                  "weight": "bold",
+                  "size": "lg"
+                },
+                {
+                  "type": "text",
+                  "text": "เรียบร้อยแล้ว",
+                  "weight": "bold",
+                  "size": "lg"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "รอแป๊บเดียว เดี๋ยวขึ้นจอให้เลย 📺",
+              "size": "sm",
+              "color": "#666666",
+              "margin": "md"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "image",
+              "url": "https://raw.githubusercontent.com/phuwasitKhao/line-flex-message/master/success.png",
+              "size": "xs"
+            }
+          ],
+          "flex": 0,
+          "position": "relative",
+          "justifyContent": "center"
+        }
+      ]
+    }
+  }

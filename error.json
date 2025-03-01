@@ -1,0 +1,113 @@
+{
+    "type": "bubble",
+    "size": "giga",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "ยังไม่พบรายการ",
+                      "weight": "bold",
+                      "size": "xl",
+                      "color": "#000000",
+                      "wrap": true
+                    },
+                    {
+                      "type": "text",
+                      "text": "โอนเงินของคุณนะ",
+                      "size": "xl",
+                      "weight": "bold",
+                      "color": "#000000"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "ลองตรวจสอบอีกที ",
+                      "size": "sm",
+                      "color": "#595959",
+                      "wrap": true
+                    },
+                    {
+                      "type": "text",
+                      "text": "แล้วส่งสลิปมาใหม่ได้เลย!",
+                      "size": "sm"
+                    }
+                  ],
+                  "margin": "sm"
+                }
+              ]
+            },
+            {
+              "type": "image",
+              "url": "https://raw.githubusercontent.com/phuwasitKhao/line-flex-message/master/error.png",
+              "flex": 0
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "message",
+                    "label": "อัฟโหลด e-Slip ใหม่",
+                    "text": "อัฟโหลด e-Slip ใหม่"
+                  },
+                  "style": "primary",
+                  "margin": "none",
+                  "color": "#7E1299"
+                }
+              ],
+              "backgroundColor": "#7E1299",
+              "cornerRadius": "md"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "message",
+                    "label": "ขอ QR ใหม่อีกครั้ง",
+                    "text": "ขอ QR ใหม่อีกครั้ง"
+                  },
+                  "color": "#9B67A8"
+                }
+              ],
+              "borderColor": "#9B67A8",
+              "borderWidth": "light",
+              "cornerRadius": "md"
+            }
+          ],
+          "spacing": "md",
+          "margin": "lg",
+          "justifyContent": "center"
+        }
+      ]
+    }
+  }
